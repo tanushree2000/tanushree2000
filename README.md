@@ -1,6 +1,6 @@
 ## ‍♀️ Introducing Myself
 
-!Tanushree Poojary.png
+## ![My Profile Picture](Tanushree Poojary.png)
 
 Hello, I'm Katie. Data Analyst with expertise in data analysis and reporting, query optimization, database design, and data modelling.
 

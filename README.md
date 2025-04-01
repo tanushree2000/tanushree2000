@@ -10,17 +10,17 @@ Hello, I'm Tanushree Poojary. Data Enthusiast with expertise in data analysis an
 - Developing dashboards on Tableau and Looker Studio.
 - Data analysis and reporting using Google Sheets and Excel.
 
-### Projects
+### 📚 Projects
 
 Welcome to my portfolio, where I showcase my projects.
 
-### ️ Tools
+### ️🛠️ Tools
 
 - Language: SQL, Python
 - Database: Google BigQuery, PostgreSQL, MySQL
 - Visualization: Tableau, PowerBI
 
-### Connect with Me
+###👋🏻 Connect with Me
 
 - [LinkedIn](www.linkedin.com/in/tanushreep2000)
 

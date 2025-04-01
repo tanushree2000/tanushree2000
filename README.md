@@ -1,8 +1,9 @@
-## ‍♀️ Introducing Myself
+## ‍🙋🏻‍♀️ Introducing Myself
+
 [
 ## ![My Profile Picture](TanushreePoojary.png)
 
-Hello, I'm Katie. Data Analyst with expertise in data analysis and reporting, query optimization, database design, and data modelling.
+Hello, I'm Tanushree Poojary. Data Enthusiast with expertise in data analysis and reporting, query optimization, database design, and data modelling.
 
 - Querying data using SQL.
 - Generate reports and perform ad-hoc data analysis using SQL.
@@ -17,9 +18,9 @@ Welcome to my portfolio, where I showcase my projects.
 
 - Language: SQL, Python
 - Database: Google BigQuery, PostgreSQL, MySQL
-- Visualization: Tableau, Looker Studio
+- Visualization: Tableau, PowerBI
 
 ### Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/katiehuangx/)
-- [Hire me on Upwork](upwork_profile_url)
+- [LinkedIn](www.linkedin.com/in/tanushreep2000)
+

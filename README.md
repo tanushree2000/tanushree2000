@@ -19,7 +19,7 @@ Welcome to my portfolio, where I showcase my projects.
 - Database: Google BigQuery, PostgreSQL, MySQL
 - Visualization: Tableau, PowerBI
 
-###👋🏻 Connect with Me
+### 👋🏻 Connect with Me
 
 - [LinkedIn](www.linkedin.com/in/tanushreep2000)
 

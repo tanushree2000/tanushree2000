@@ -1,6 +1,5 @@
 ## ‍🙋🏻‍♀️ Introducing Myself
 
-[
 ## ![My Profile Picture](TanushreePoojary.png)
 
 Hello, I'm Tanushree Poojary. Data Enthusiast with expertise in data analysis and reporting, query optimization, database design, and data modelling.

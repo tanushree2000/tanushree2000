@@ -1,8 +1,9 @@
 <h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree Poojary</span> here 👋👩‍💻</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/yourusername/main/banner.png" alt="Banner" />
+  <img src="./TanushreePoojary.png" alt="Banner" width="100%" />
 </p>
+
 
 <p align="center">
   <a href="mailto:yourmail@gmail.com">

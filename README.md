@@ -1,8 +1,24 @@
-## ‍🙋🏻‍♀️ Hi there, Tanushree Poojary here  👨🏻‍💻
+<h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree Poojary</span> here 👋👩‍💻</h2>
 
-## ![My Profile Picture](TanushreePoojary.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/yourusername/main/banner.png" alt="Banner" />
+</p>
 
-Hello, I'm Tanushree Poojary. Data Enthusiast with expertise in data analysis and reporting, query optimization, database design, and data modelling.
+<p align="center">
+  <a href="mailto:yourmail@gmail.com">
+    <img src="https://img.shields.io/badge/vedantjolly-D14836?style=flat&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/yourlinkedin">
+    <img src="https://img.shields.io/badge/Vedant%20Jolly-blue?style=flat&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.hackerrank.com/yourusername">
+    <img src="https://img.shields.io/badge/Hackerrank-2EC866?style=flat&logo=hackerrank&logoColor=white"/>
+  </a>
+  <a href="https://github.com/yourusername">
+    <img src="https://img.shields.io/badge/@yourusername-181717?style=flat&logo=github"/>
+  </a>
+</p>
+
 
 - Querying data using SQL.
 - Generate reports and perform ad-hoc data analysis using SQL.

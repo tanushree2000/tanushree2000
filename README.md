@@ -26,7 +26,7 @@
 
 
 ## A little about me… 🌼✨
-<img align="right" src="./Techyy.png" width="300"/>
+<img align="right" src="./ME.png" width="280"/>
 
 I am currently pursuing my **Master’s in Information Management** 🎓 at the [University of Illinois Urbana-Champaign](https://ischool.illinois.edu/) 🐾.
 I am a **tech enthusiast** 👩‍💻💡 who’s always excited to explore data, AI, and all things digital 🔍⚙️. I love building thoughtful solutions that create real impact 🌍❤️.

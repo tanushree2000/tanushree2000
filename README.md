@@ -23,7 +23,7 @@
 </p>
 
 
-<img align="right" src="./Techyy.png" width="150"/>
+<img align="right" src="./Techyy.png" width="200"/>
 
 ## A little about me… 🌼✨
 

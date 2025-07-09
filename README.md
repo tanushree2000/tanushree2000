@@ -1,21 +1,21 @@
 <h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree Poojary</span> here 👋👩‍💻</h2>
 
 <p align="center">
-  <img src="./1670460985074.jng" alt="Banner" width="100%" />
+  <img src="./1670460985074.jpg" alt="Banner" width="100%" />
 </p>
 
 
 <p align="center">
-  <a href="mailto:yourmail@gmail.com">
-    <img src="https://img.shields.io/badge/vedantjolly-D14836?style=flat&logo=gmail&logoColor=white"/>
+  <a href="mailto:tp25@illinois.edu">
+    <img src="https://img.shields.io/badge/tanushreepoojary-D14836?style=flat&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://www.linkedin.com/in/yourlinkedin">
-    <img src="https://img.shields.io/badge/Vedant%20Jolly-blue?style=flat&logo=linkedin&logoColor=white"/>
+  <a href="www.linkedin.com/in/tanushreep25">
+    <img src="https://img.shields.io/badge/Tanushree%20Poojary-blue?style=flat&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://www.hackerrank.com/yourusername">
+  <a href="[https://www.hackerrank.com/profile/tanushreepoojar1]">
     <img src="https://img.shields.io/badge/Hackerrank-2EC866?style=flat&logo=hackerrank&logoColor=white"/>
   </a>
-  <a href="https://github.com/yourusername">
+  <a href="https://github.com/tanushree2000">
     <img src="https://img.shields.io/badge/@yourusername-181717?style=flat&logo=github"/>
   </a>
 </p>

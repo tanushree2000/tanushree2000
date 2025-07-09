@@ -23,7 +23,7 @@
 </p>
 
 
-<img align="right" src="./memoji.png" width="150"/>
+<img align="left" src="./memoji.png" width="150"/>
 
 ## A little about me… 🌼✨
 

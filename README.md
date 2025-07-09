@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Hackerrank-2EC866?style=flat&logo=hackerrank&logoColor=white"/>
   </a>
   <a href="https://github.com/tanushree2000">
-    <img src="https://img.shields.io/badge/@ytanushree2000-181717?style=flat&logo=github"/>
+    <img src="https://img.shields.io/badge/@tanushree2000-181717?style=flat&logo=github"/>
   </a>
 </p>
 

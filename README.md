@@ -1,4 +1,4 @@
-<h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree</span> here 👋💻🙇‍♀️</h2>
+<h2 align="left">Hi there, Tanushree here <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> 👩‍💻</h2>
 
 
 

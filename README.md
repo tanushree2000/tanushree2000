@@ -31,7 +31,7 @@
 I am currently pursuing my **Master’s in Information Management** 🎓 at the [University of Illinois Urbana-Champaign](https://ischool.illinois.edu/) 🐾.
 I am a **tech enthusiast** 👩‍💻💡 who’s always excited to explore data, AI, and all things digital 🔍⚙️. I love building thoughtful solutions that create real impact 🌍❤️.
 Open-source has my heart 🤎, I may not be a core maintainer (yet 😉), but I truly enjoy contributing wherever I can. I believe in the _"leave it better than you found it"_ philosophy 🛠️🌿.
-And honestly? Nothing beats a kind, clear README —> it’s like a tech hug for newcomers 🤗💻📖.
+And honestly? Nothing beats a kind, clear README => it’s like a tech hug for newcomers 🤗💻📖.
 
 
 ### 📚 Projects

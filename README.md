@@ -1,4 +1,5 @@
-<h2 align="left">Hi there, Tanushree here <img src="https://em-content.zobj.net/thumbs/120/twitter/322/handshake_1f91d.gif" width="30"/></h2>
+<h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree</span> here 👋💻🙇‍♀️</h2>
+
 
 
 <p align="center">

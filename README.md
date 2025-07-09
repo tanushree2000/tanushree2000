@@ -5,7 +5,7 @@
 </p>
 
 
-<p align="center">
+<p align="left">
   <a href="mailto:tp25@illinois.edu">
     <img src="https://img.shields.io/badge/tanushreepoojary-D14836?style=flat&logo=gmail&logoColor=white"/>
   </a>
@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/Hackerrank-2EC866?style=flat&logo=hackerrank&logoColor=white"/>
   </a>
   <a href="https://github.com/tanushree2000">
-    <img src="https://img.shields.io/badge/@yourusername-181717?style=flat&logo=github"/>
+    <img src="https://img.shields.io/badge/@ytanushree2000-181717?style=flat&logo=github"/>
   </a>
 </p>
 

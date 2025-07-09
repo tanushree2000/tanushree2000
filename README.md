@@ -1,7 +1,7 @@
 <h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree Poojary</span> here 👋👩‍💻</h2>
 
 <p align="center">
-  <img src="./TanushreePoojary.png" alt="Banner" width="100%" />
+  <img src="./1670460985074.jng" alt="Banner" width="100%" />
 </p>
 
 

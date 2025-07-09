@@ -11,7 +11,7 @@
   <a href="mailto:tp25@illinois.edu">
     <img src="https://img.shields.io/badge/tanushreepoojary-D14836?style=flat&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://in.linkedin.com/in/tanushree-poojary-46185118a">
+  <a href="https://www.linkedin.com/in/tanushreep25/">
     <img src="https://img.shields.io/badge/Tanushree%20Poojary-blue?style=flat&logo=linkedin&logoColor=white"/>
   </a>
   <a href="[https://www.hackerrank.com/profile/tanushreepoojar1]">

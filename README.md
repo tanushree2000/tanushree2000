@@ -1,4 +1,5 @@
-<h2 align="left">Hi there, <span style="color:#58A6FF;">Tanushree Poojary</span> here 👋👩‍💻</h2>
+<h2 align="left">Hi there, Tanushree here <img src="https://media.giphy.com/media/3ohzdYJK1wAdPWVk88/giphy.gif" width="40"/></h2>
+
 
 <p align="center">
   <img src="./1670460985074.jpg" alt="Banner" width="100%" />

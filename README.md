@@ -1,4 +1,4 @@
-## ‍🙋🏻‍♀️ Introducing Myself
+## ‍🙋🏻‍♀️ Hi there, Tanushree Poojary here  👨🏻‍💻
 
 ## ![My Profile Picture](TanushreePoojary.png)
 

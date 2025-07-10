@@ -37,7 +37,38 @@ And honestly? Nothing beats a kind, clear **README** =>it’s like a tech hug fo
 
 
 
-### 📚 Projects
+## Who am I?
+-- Tanushree Poojary: SELECTing the best version of herself 👩‍💻
+
+SELECT 
+    name,
+    current_role,
+    favorite_tools,
+    passions,
+    location
+FROM 
+    humans_of_tech
+WHERE 
+    name = 'Tanushree Poojary';
+
+-- Output:
+
+name = 'Tanushree Poojary'
+current_role = 'Data Storyteller | MSIM @ UIUC'
+favorite_tools = ['SQL', 'Python', 'Power BI', 'Excel', 'PostgreSQL']
+passions = ['Making insights easy to understand', 'Helping people feel smart with data', 'Open source', 'Visual storytelling', 'Soft skills in tech']
+location = 'Urbana, Illinois, USA'
+
+-- Bonus: Ambitions Table
+
+INSERT INTO dreams_and_goals (id, goal)
+VALUES 
+    (1, 'Build meaningful data products'),
+    (2, 'Support ethical AI & education'),
+    (3, 'Launch a Substack newsletter'),
+    (4, 'Become a kickass BI analyst'),
+    (5, 'Inspire other women in tech');
+
 
 Welcome to my portfolio, where I showcase my projects.
 

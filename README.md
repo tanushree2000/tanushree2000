@@ -38,47 +38,29 @@ And honestly? Nothing beats a kind, clear **README** =>it’s like a tech hug fo
 
 
 ## Who am I?
--- Tanushree Poojary: SELECTing the best version of herself 👩‍💻
+```sql
 
 SELECT 
-    name,
-    current_role,
-    favorite_tools,
-    passions,
-    location
-FROM 
-    humans_of_tech
-WHERE 
-    name = 'Tanushree Poojary';
-
--- Output:
-
-name = 'Tanushree Poojary'
-current_role = 'Data Storyteller | MSIM @ UIUC'
-favorite_tools = ['SQL', 'Python', 'Power BI', 'Excel', 'PostgreSQL']
-passions = ['Making insights easy to understand', 'Helping people feel smart with data', 'Open source', 'Visual storytelling', 'Soft skills in tech']
-location = 'Urbana, Illinois, USA'
-
--- Bonus: Ambitions Table
-
-INSERT INTO dreams_and_goals (id, goal)
-VALUES 
-    (1, 'Build meaningful data products'),
-    (2, 'Support ethical AI & education'),
-    (3, 'Launch a Substack newsletter'),
-    (4, 'Become a kickass BI analyst'),
-    (5, 'Inspire other women in tech');
+  'Tanushree Poojary' AS name,
+  'MS in Information Management' AS education,
+  'University of Illinois Urbana-Champaign' AS university,
+  'Data Analytics & Storytelling' AS passion,
+  'Turning chaos into clarity with clean, compelling data' AS mission;
 
 
-Welcome to my portfolio, where I showcase my projects.
+SELECT 
+  ARRAY['SQL', 'Python', 'Power BI', 'Excel', 'Tableau'] AS skills,
+  ARRAY['Gender Pay Gap Analysis', 'Misinformation Detection - CHIME', 'Dining Hall Data Pipeline'] AS projects,
+  ARRAY['Clarity', 'Curiosity', 'Empathy', 'Storytelling', 'Collaboration'] AS core_values;
 
-### ️🛠️ Tools
 
-- Language: SQL, Python
-- Database: Google BigQuery, PostgreSQL, MySQL
-- Visualization: Tableau, PowerBI
+INSERT INTO real_world_portfolio
+VALUES (
+  'https://github.com/tanushree2000',
+  'https://tanushree.substack.com' -- (just in case 😉)
+);
 
-### 👋🏻 Connect with Me
+-- 🚀 Output: Insightful, human-centered analytics with a touch of storytelling 💫
 
-- [LinkedIn](www.linkedin.com/in/tanushreep2000)
+
 

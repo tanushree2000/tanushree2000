@@ -38,8 +38,8 @@ And honestly? Nothing beats a kind, clear **README** =>it’s like a tech hug fo
 
 
 ## Who am I?
-```sql
 
+```dax
 WhoAmI = 
 VAR Name = "Tanushree Poojary"
 VAR Purpose = "I tell stories that help people see clearer 🌼📊"
@@ -60,5 +60,45 @@ VAR Ambitions = {
 RETURN 
 UNION({Name, Purpose}, Hobbies, Ambitions)
 
+```
 
-##
+### ⚡ A Few Quick Facts
+
+- 🔭 **I’m currently working on**: Data Analysis Project  
+- 🪄 **I enjoy working on**:
+  - 📊 Artificial Intelligence and Analytics  
+  - 🖼 Data Visualization  
+  - ✨ Data Storytelling  
+
+- 💬 Ask me about: `Python`, `SQL`, `Data Analytics`  
+- 📙 [Check out my Resume](#) <!-- Replace # with your actual resume link -->
+- 😄 Pronouns: **She/Her**  
+- 🍜 **Fun Fact**: I’m a huge fan of anime, I ❤️ to eat and travel ✈️🌍  
+
+---
+
+### 🛠️ Some Tools & Tech I Use
+
+#### 🚀 I use daily:
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
+![SQL](https://img.shields.io/badge/-SQL-blue?style=flat-square&logo=mysql)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
+
+#### 🧩 I work using:
+![Power BI](https://img.shields.io/badge/-PowerBI-F2C811?style=flat-square&logo=powerbi)
+![Excel](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoft-excel)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter)
+
+#### 🧠 Learning more about:
+![AI](https://img.shields.io/badge/-Artificial%20Intelligence-purple?style=flat-square)
+![Data Storytelling](https://img.shields.io/badge/-Data%20Storytelling-pink?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Design-teal?style=flat-square)
+
+---
+
+### 🖥️ My Dev Setup
+![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows)
+![VS Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code)
+![Terminal](https://img.shields.io/badge/-Terminal-black?style=flat-square)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter)
+![Spotify](https://img.shields.io/badge/-Spotify-1DB954?style=flat-square&logo=spotify)

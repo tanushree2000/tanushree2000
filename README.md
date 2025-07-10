@@ -40,27 +40,26 @@ And honestly? Nothing beats a kind, clear **README** =>it’s like a tech hug fo
 ## Who am I?
 ```sql
 
-SELECT 
-  'Tanushree Poojary' AS name,
-  'MS in Information Management' AS education,
-  'University of Illinois Urbana-Champaign' AS university,
-  'Data Analytics & Storytelling' AS passion,
-  'Turning chaos into clarity with clean, compelling data' AS mission;
+WhoAmI = 
+VAR Name = "Tanushree Poojary"
+VAR Purpose = "I tell stories that help people see clearer 🌼📊"
+VAR Hobbies = {
+    "🎨 Painting", 
+    "🏐 Watching Volleyball", 
+    "🍜 Cooking experiments", 
+    "🌙 Late-night dashboarding", 
+    "🍥 Anime binge-sessions"
+}
+VAR Ambitions = {
+    "LearnWithWonder", 
+    "DesignForImpact", 
+    "LeadWithKindness", 
+    "ShareWhatIKnow", 
+    "KeepAskingWhy"
+}
+RETURN 
+UNION({Name, Purpose}, Hobbies, Ambitions)
 
-
-SELECT 
-  ARRAY['SQL', 'Python', 'Power BI', 'Excel', 'Tableau'] AS skills,
-  ARRAY['Gender Pay Gap Analysis', 'Misinformation Detection - CHIME', 'Dining Hall Data Pipeline'] AS projects,
-  ARRAY['Clarity', 'Curiosity', 'Empathy', 'Storytelling', 'Collaboration'] AS core_values;
-
-
-INSERT INTO real_world_portfolio
-VALUES (
-  'https://github.com/tanushree2000',
-  'https://tanushree.substack.com' -- (just in case 😉)
-);
-
--- 🚀 Output: Insightful, human-centered analytics with a touch of storytelling 💫
 
 
 

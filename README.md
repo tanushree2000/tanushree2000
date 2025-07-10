@@ -26,7 +26,7 @@
 
 
 ## A little about me… 🌼✨
-<img align="right" src="./ME.png" width="210"/>
+<img align="right" src="./ME.png" width="208"/>
 
 I am currently pursuing my **Master’s in Information Management** 🎓 at the [University of Illinois Urbana-Champaign](https://illinois.edu) 🐾.  
 I am a **tech enthusiast** 👩‍💻💡 who’s always excited to explore data, AI, and all things digital 🔍⚙️.  

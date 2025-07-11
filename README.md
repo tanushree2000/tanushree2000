@@ -77,49 +77,89 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 
 ---
 
-## 🛠️ Some Tools & Tech I Use
+<!-- Tools Section -->
+<div style="font-size: 16px; line-height: 1.6;">
 
-🚀 **I use daily:**
+<h2 style="font-size: 24px;">🛠️ Tools & Tech I Use</h2>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-005C84?style=for-the-badge&logo=postgresql&logoColor=white)
-![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+<!-- Daily Tools -->
+<h3 style="font-size: 20px;">🚀 I use daily:</h3>
+<p>
+  <a href="https://www.python.org/" title="Python">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://sqlbolt.com/" title="SQL">
+    <img src="https://img.shields.io/badge/SQL-005C84?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+  </a>
+  <a href="https://code.visualstudio.com/" title="VS Code">
+    <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
+  </a>
+  <a href="https://cloud.google.com/bigquery" title="BigQuery">
+    <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlecloud&logoColor=white" alt="BigQuery">
+  </a>
+  <a href="https://looker.com/" title="Looker">
+    <img src="https://img.shields.io/badge/Looker-4285F4?style=flat-square&logo=looker&logoColor=white" alt="Looker">
+  </a>
+</p>
 
-🧠 **I work using:**
+<!-- Work Tools -->
+<h3 style="font-size: 20px;">🧠 I work using:</h3>
+<p>
+  <a href="https://pandas.pydata.org/" title="Pandas">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  </a>
+  <a href="https://numpy.org/" title="NumPy">
+    <img src="https://img.shields.io/badge/Numpy-013243?style=flat-square&logo=numpy&logoColor=white" alt="Numpy">
+  </a>
+  <a href="https://jupyter.org/" title="Jupyter Notebook">
+    <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+  </a>
+  <a href="https://git-scm.com/" title="Git">
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  </a>
+  <a href="https://www.tableau.com/" title="Tableau">
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau">
+  </a>
+  <a href="https://cloud.google.com/" title="Google Cloud Platform">
+    <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP">
+  </a>
+</p>
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+<!-- Learning Tools -->
+<h3 style="font-size: 20px;">📚 Learning more about:</h3>
+<p>
+  <a href="https://www.tensorflow.org/" title="Machine Learning">
+    <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="Machine Learning">
+  </a>
+  <a href="https://www.optimizely.com/" title="Experimentation / A/B Testing">
+    <img src="https://img.shields.io/badge/A%2FB%20Testing-DB4437?style=flat-square" alt="A/B Testing">
+  </a>
+  <a href="https://gdpr-info.eu/" title="Data Privacy & Ethics">
+    <img src="https://img.shields.io/badge/Data%20Privacy-000000?style=flat-square&logo=gdpr&logoColor=white" alt="Data Privacy">
+  </a>
+  <a href="https://cloud.google.com/looker/docs/reference/lookml" title="Advanced LookML">
+    <img src="https://img.shields.io/badge/LookML-34A853?style=flat-square&logo=looker&logoColor=white" alt="LookML">
+  </a>
+</p>
 
-📚 **Learning more about:**
+<!-- Dev Setup -->
+<h3 style="font-size: 20px;">💻 My Dev Setup</h3>
+<p>
+  <a href="https://colab.research.google.com/" title="Colab">
+    <img src="https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Colab">
+  </a>
+  <a href="https://www.gnu.org/software/bash/" title="Terminal">
+    <img src="https://img.shields.io/badge/Terminal-000000?style=flat-square&logo=gnometerminal&logoColor=white" alt="Terminal">
+  </a>
+  <a href="https://github.com/" title="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://slack.com/" title="Slack">
+    <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack">
+  </a>
+  <a href="https://slides.google.com/" title="Google Slides">
+    <img src="https://img.shields.io/badge/Slides-F4B400?style=flat-square&logo=googleslides&logoColor=white" alt="Google Slides">
+  </a>
+</p>
 
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Experimentation](https://img.shields.io/badge/A%2FB%20Testing-DB4437?style=for-the-badge)
-![Data Privacy](https://img.shields.io/badge/Data%20Privacy-000000?style=for-the-badge&logo=gdpr&logoColor=white)
-![Advanced LookML](https://img.shields.io/badge/LookML-34A853?style=for-the-badge&logo=looker&logoColor=white)
-
----
-
-## 💻 My Dev Setup
-
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Terminal](https://img.shields.io/badge/Terminal-000000?style=for-the-badge&logo=gnometerminal&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
-![Looker](https://img.shields.io/badge/Looker-4285F4?style=for-the-badge&logo=looker&logoColor=white)
-
-
----
-
-### 🖥️ My Dev Setup
-![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows)
-![VS Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code)
-![Terminal](https://img.shields.io/badge/-Terminal-black?style=flat-square)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter)
-![Spotify](https://img.shields.io/badge/-Spotify-1DB954?style=flat-square&logo=spotify)
+</div>

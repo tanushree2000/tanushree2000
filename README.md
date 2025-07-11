@@ -118,7 +118,7 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 <details>
   <summary>📊 Some of my Github Public Stats 💻</summary>
   
-  <a href="#"><img src="https://github.com/samujjwaal/samujjwaal/raw/master/etc/laptop.png" align="right" height="200" /></a>
+  <a href="#"><img src="https://raw.githubusercontent.com/matiassingers/awesome-readme/master/media/typing.gif" align="right" height="180" /></a>
 
   [![My Github Stats](https://new-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&count_private=true&theme=dracula&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/tanushree2000)
 
@@ -139,3 +139,7 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 </a>
 </p>
 </details>
+
+---
+
+[![Profile last updated](https://img.shields.io/github/last-commit/tanushree2000/tanushree2000/main?label=Last%20updated&style=flat)](https://github.com/tanushree2000/tanushree2000/commits)

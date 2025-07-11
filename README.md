@@ -77,9 +77,9 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 
 ---
 
-## 🧰 Some Tools & Tech I Use
+## 🛠️ Some Tools & Tech I Use
 
-### 🚀 I use daily:
+🪄 **I use daily:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-005C84?style=flat&logo=postgresql&logoColor=white)
 ![Looker](https://img.shields.io/badge/Looker-4285F4?style=flat&logo=looker&logoColor=white)
@@ -87,7 +87,7 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
-### 🧠 I work using:
+🧠 **I work using:**  
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -95,15 +95,13 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
-### 📚 Learning more about:
+📚 **Learning more about:**  
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![A/B Testing](https://img.shields.io/badge/A%2FB%20Testing-DB4437?style=flat)
 ![Data Privacy](https://img.shields.io/badge/Data%20Privacy-000000?style=flat&logo=gdpr&logoColor=white)
 ![LookML](https://img.shields.io/badge/LookML-34A853?style=flat&logo=looker&logoColor=white)
 
----
-
-### 💻 My Dev Setup:
+💻 **My Dev Setup:**  
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Terminal](https://img.shields.io/badge/Terminal-000000?style=flat&logo=gnometerminal&logoColor=white)

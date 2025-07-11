@@ -112,37 +112,36 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
   ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
+### 🖥️ My DevSetup
+<img src="https://img.shields.io/badge/Chrome-555555.svg?&style=flat-square&logo=google-chrome&logoColor=FABC0C"> <img src="https://img.shields.io/badge/VS Code-555555?style=flat-square&logo=visual-studio-code&logoColor=007ACC"> <img src="https://img.shields.io/badge/Terminal-555555.svg?&style=flat-square&logo=powershell&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-555555.svg?&style=flat-square&logo=jupyter&logoColor=F37626"> <img src="https://img.shields.io/badge/Spotify-555555.svg?&style=flat-square&logo=spotify&logoColor=1ED760"> 
+
+<details>
+  <summary>Some of my Github Public Stats :computer:</summary>
+  
+  <a href="http://basscoder2808.github.io/"><img src="https://github.com/samujjwaal/samujjwaal/raw/master/etc/laptop.png" align="right" height="200" /></a>
+
+  [![My Github Stats](https://new-readme-stats.vercel.app/api?username=basscoder2808&show_icons=true&count_private=true&theme=dracula&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/BassCoder2808)
+  
+  [![My Top Langs](https://new-readme-stats.vercel.app/api/top-langs/?username=basscoder2808&layout=compact&theme=draculashow_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/BassCoder2808)
 
 
-  <details>
-  <summary>📊 Some of my Github Public Stats 💻</summary>
-
-  <br/>
-
-  ![My Github Stats](https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=tokyonight)
-
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=tokyonight)
-
-  <br/>
+  ----
+  
 </details>
 
----
 
-## 🌟 Working on
 
-<p align="left">
 
-  <a href="https://github.com/thewhitetulip/Books/blob/master/data/End-to-End-Data-Analytics-Project.md">
-    <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thewhitetulip&repo=Books&theme=tokyonight&title_color=00e7ff&text_color=ffffff&custom_title=End-to-End%20Data%20Analytics%20Project" />
-  </a>
 
-  <a href="https://github.com/airbnb/knowledge-repo">
-    <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=airbnb&repo=knowledge-repo&theme=tokyonight" />
-  </a>
-
+<details>
+<summary> 💥 Working on </summary>
+<br>
+<p align="center">
+<a href="https://github.com/BassCoder2808/Netfilx-and-Chilwell">
+<img src="https://new-readme-stats.vercel.app/api/pin/?username=BassCoder2808&repo=Netfilx-and-Chilwell&show_owner=true&theme=react" height="130"/>
+</a>&ensp;
+<a href="https://github.com/BassCoder2808/MajorProject2022">
+<img src="https://new-readme-stats.vercel.app/api/pin/?username=BassCoder2808&repo=MajorProject2022&show_owner=true&theme=react" />
+</a>
 </p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Last%20updated-July%202025-yellow?style=for-the-badge"/>
-</p>
-
+</details>

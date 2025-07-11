@@ -116,32 +116,26 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
 <img src="https://img.shields.io/badge/Chrome-555555.svg?&style=flat-square&logo=google-chrome&logoColor=FABC0C"> <img src="https://img.shields.io/badge/VS Code-555555?style=flat-square&logo=visual-studio-code&logoColor=007ACC"> <img src="https://img.shields.io/badge/Terminal-555555.svg?&style=flat-square&logo=powershell&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-555555.svg?&style=flat-square&logo=jupyter&logoColor=F37626"> <img src="https://img.shields.io/badge/Spotify-555555.svg?&style=flat-square&logo=spotify&logoColor=1ED760"> 
 
 <details>
-  <summary>Some of my Github Public Stats :computer:</summary>
+  <summary>📊 Some of my Github Public Stats 💻</summary>
   
-  <a href="http://basscoder2808.github.io/"><img src="https://github.com/samujjwaal/samujjwaal/raw/master/etc/laptop.png" align="right" height="200" /></a>
+  <a href="#"><img src="https://github.com/samujjwaal/samujjwaal/raw/master/etc/laptop.png" align="right" height="200" /></a>
 
-  [![My Github Stats](https://new-readme-stats.vercel.app/api?username=basscoder2808&show_icons=true&count_private=true&theme=dracula&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/BassCoder2808)
-  
-  [![My Top Langs](https://new-readme-stats.vercel.app/api/top-langs/?username=basscoder2808&layout=compact&theme=draculashow_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/BassCoder2808)
+  [![My Github Stats](https://new-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&count_private=true&theme=dracula&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/tanushree2000)
 
+  [![My Top Langs](https://new-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=dracula&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/tanushree2000)
 
   ----
-  
 </details>
-
-
-
-
 
 <details>
 <summary> 💥 Working on </summary>
 <br>
 <p align="center">
-<a href="https://github.com/BassCoder2808/Netfilx-and-Chilwell">
-<img src="https://new-readme-stats.vercel.app/api/pin/?username=BassCoder2808&repo=Netfilx-and-Chilwell&show_owner=true&theme=react" height="130"/>
+<a href="https://github.com/tanushree2000/YOUR_PROJECT_1">
+<img src="https://new-readme-stats.vercel.app/api/pin/?username=tanushree2000&repo=YOUR_PROJECT_1&show_owner=true&theme=react" height="130"/>
 </a>&ensp;
-<a href="https://github.com/BassCoder2808/MajorProject2022">
-<img src="https://new-readme-stats.vercel.app/api/pin/?username=BassCoder2808&repo=MajorProject2022&show_owner=true&theme=react" />
+<a href="https://github.com/tanushree2000/YOUR_PROJECT_2">
+<img src="https://new-readme-stats.vercel.app/api/pin/?username=tanushree2000&repo=YOUR_PROJECT_2&show_owner=true&theme=react" />
 </a>
 </p>
 </details>

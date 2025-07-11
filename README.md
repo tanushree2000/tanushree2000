@@ -111,3 +111,38 @@ UNION({Name, Purpose}, Hobbies, Ambitions)
   ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
   ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+
+
+  <details>
+  <summary>📊 Some of my Github Public Stats 💻</summary>
+
+  <br/>
+
+  ![My Github Stats](https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=tokyonight)
+
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=tokyonight)
+
+  <br/>
+</details>
+
+---
+
+## 🌟 Working on
+
+<p align="left">
+
+  <a href="https://github.com/thewhitetulip/Books/blob/master/data/End-to-End-Data-Analytics-Project.md">
+    <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thewhitetulip&repo=Books&theme=tokyonight&title_color=00e7ff&text_color=ffffff&custom_title=End-to-End%20Data%20Analytics%20Project" />
+  </a>
+
+  <a href="https://github.com/airbnb/knowledge-repo">
+    <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=airbnb&repo=knowledge-repo&theme=tokyonight" />
+  </a>
+
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Last%20updated-July%202025-yellow?style=for-the-badge"/>
+</p>
+

@@ -4,57 +4,54 @@
      ========================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&height=160&text=Hi,%20I%27m%20<<YOUR%20NAME>>&fontSize=42&desc=AI%20Data%20Analyst%20%7C%20Insights%20to%20Impact&descSize=18&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&height=160&text=Hi,%20I’m%20Tanushree%20Poojary&fontSize=40&desc=AI%20Data%20Analyst%20%7C%20Turning%20Data%20into%20Decisions&descSize=18&animation=fadeIn" />
 </p>
 
-<!-- Google-like logo text -->
-<h1 align="center" style="font-family: Product Sans, Arial;">
+<h1 align="center">
   <span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span style="color:#FBBC05">o</span><span style="color:#4285F4">g</span><span style="color:#34A853">l</span><span style="color:#EA4335">e</span>
   <span style="color:#5f6368"> • Profile</span>
 </h1>
 
 <p align="center">
-  <b>AI Data Analyst</b> • SQL • Python • BI • ML • Experimentation • Dashboards
+  <b>AI Data Analyst</b> • Python • SQL • BI • Machine Learning • Analytics
 </p>
 
-<!-- "Search bar" (fake) -->
+<!-- Fake Google Search Bar -->
 <p align="center">
-  <img alt="Search Bar" src="https://readme-typing-svg.demolab.com?font=Arial&size=18&pause=1200&color=5F6368&center=true&vCenter=true&width=780&lines=Search+my+profile...;AI+Data+Analyst+%7C+Data+Storytelling+%7C+Model+to+Metric;SQL+%2B+Python+%2B+Power+BI+%2B+Machine+Learning;Open+to+AI%2FData+roles+%7C+Remote+%7C+<<YOUR%20CITY>>" />
+  <img src="https://readme-typing-svg.demolab.com?font=Arial&size=18&pause=1200&color=5F6368&center=true&vCenter=true&width=800&lines=Search+Tanushree+Poojary...;AI+Data+Analyst+%7C+Data+Storytelling+%7C+ML+Insights;Python+%2B+SQL+%2B+Power+BI+%2B+Analytics;Open+to+AI%2FData+roles+%7C+United+States" />
 </p>
 
-<!-- Google buttons -->
+<!-- Google Buttons -->
 <p align="center">
-  <a href="<<YOUR_PORTFOLIO_LINK>>"><img src="https://img.shields.io/badge/Google%20Search%20Me-4285F4?style=for-the-badge&logo=google&logoColor=white"/></a>
-  <a href="<<YOUR_RESUME_LINK>>"><img src="https://img.shields.io/badge/I%27m%20Feeling%20Lucky-34A853?style=for-the-badge&logo=google&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Google%20Search%20Me-4285F4?style=for-the-badge&logo=google&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/I’m%20Feeling%20Lucky-34A853?style=for-the-badge&logo=google&logoColor=white"/></a>
 </p>
 
-<br/>
+---
 
-<!-- Google "Knowledge Panel" style -->
-<table align="center">
+## 🔎 Knowledge Panel — Tanushree Poojary
+
+<table>
 <tr>
 <td width="60%">
-  
-## 🔎 About (Knowledge Panel)
 
-- 📌 Role: **AI Data Analyst**
-- 🧠 Focus: **forecasting, segmentation, churn, anomaly detection, KPI design**
-- 📊 I build: **dashboards + models + decision-ready insights**
-- 🧪 I love: **A/B testing, causal thinking, clean metrics**
-- 🧰 Tools: **Python, SQL, Power BI/Tableau, Excel, Git, BigQuery/Snowflake**
-- 🌱 Currently learning: **<<TOPIC (e.g., causal inference / dbt / MLOps)>>**
-- 🤝 Open to: **AI/Data Analyst roles, freelance analytics, collabs**
+- 👩‍💻 **Role:** AI Data Analyst  
+- 🧠 **Specialties:** predictive analytics, data storytelling, ML-driven insights  
+- 📊 **What I build:** dashboards, models, decision-ready metrics  
+- 🧪 **Interests:** A/B testing, experimentation, trend analysis  
+- 🧰 **Tools:** Python, SQL, Power BI, Tableau, Excel, Git  
+- 🌱 **Currently learning:** advanced machine learning & analytics workflows  
+- 🤝 **Open to:** AI/Data Analyst roles, internships, collaborations  
 
 </td>
 <td width="40%">
 
-## 📌 Quick Links
-- 🌐 Portfolio: **<<LINK>>**
-- 🧾 Resume: **<<LINK>>**
-- ✍️ Blog: **<<LINK>>**
-- 💼 LinkedIn: **<<LINK>>**
-- 🧪 Kaggle: **<<LINK>>**
-- 📫 Email: **<<EMAIL>>**
+### 📌 Quick Info
+- 👤 **Username:** tanushree2000  
+- 🌍 **Location:** United States  
+- ✍️ **Blog:** coming soon  
+- 💼 **LinkedIn:** coming soon  
+- 📫 **Email:** add later  
 
 </td>
 </tr>
@@ -62,35 +59,35 @@
 
 ---
 
-## 🧩 “Google Features” (What I offer)
+## 🧩 Google-Inspired Features
 
 <table>
 <tr>
 <td width="33%">
-  
-### 🗺️ Maps (Business Insight)
-I find *where* performance changes:
-- geo / cohort analysis  
+
+### 🗺️ Google Maps — Business Insight
+I explore **where** performance changes:
+- cohort & geo analysis  
 - funnel drop-offs  
-- attribution support  
+- behavior segmentation  
 
 </td>
 <td width="33%">
 
-### 📈 Trends (What’s rising?)
-I detect patterns:
+### 📈 Google Trends — Pattern Detection
+I analyze **what’s rising**:
 - time-series forecasting  
+- trend & seasonality analysis  
 - anomaly detection  
-- seasonality & drivers  
 
 </td>
 <td width="33%">
 
-### 🤖 Assistant (Decision Support)
-I automate insight delivery:
-- KPI alerts  
-- auto reports  
-- narrative summaries  
+### 🤖 Google Assistant — Smart Analytics
+I support decisions with:
+- ML-powered insights  
+- KPI automation  
+- data-driven narratives  
 
 </td>
 </tr>
@@ -98,13 +95,12 @@ I automate insight delivery:
 
 ---
 
-## 📰 Latest Blog Posts (Auto-updating)
+## 📰 Latest Blog Posts
+*(Blog coming soon — this section will auto-update later)*
 
 <!-- BLOG-POST-LIST:START -->
-- Coming soon: **Add your blog RSS to auto-update this section**
+- 🚧 Blog under construction
 <!-- BLOG-POST-LIST:END -->
-
-✅ To auto-fill this: use GitHub Action **"blog-post-workflow"** (steps below)
 
 ---
 
@@ -115,53 +111,49 @@ I automate insight delivery:
   <img src="https://img.shields.io/badge/SQL-000000?style=flat&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=000"/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white"/>
-  <img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlecloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
 </p>
 
 ---
 
-## 📌 Featured Projects (Pin these)
+## 📌 Featured Projects (Sample / Placeholder)
 
-- ⭐ **<<Project 1: e.g., Churn Prediction>>** — brief impact line  
-- ⭐ **<<Project 2: e.g., Sales Forecasting>>** — brief impact line  
-- ⭐ **<<Project 3: e.g., Customer Segmentation>>** — brief impact line  
-- ⭐ **<<Project 4: e.g., Power BI Executive Dashboard>>** — brief impact line  
+- ⭐ **Customer Churn Prediction**  
+  ML model to predict customer churn and highlight retention drivers  
+
+- ⭐ **Sales Forecasting Dashboard**  
+  Time-series forecasting with interactive Power BI visuals  
+
+- ⭐ **Customer Segmentation using ML**  
+  K-means & clustering to identify actionable customer groups  
+
+- ⭐ **Executive KPI Dashboard**  
+  End-to-end analytics dashboard for business decision-makers  
+
+*(These will be replaced with your real projects later)*
 
 ---
 
-## 📊 GitHub Stats (Optional)
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=<<YOUR_USERNAME>>&show_icons=true&rank_icon=github" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=<<YOUR_USERNAME>>" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&rank_icon=github" />
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=tanushree2000" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=<<YOUR_USERNAME>>&layout=compact" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact" />
 </p>
 
 ---
 
-## ✅ How to enable Blog Auto-Update (2 minutes)
+## 🔍 Related Searches
+- AI Data Analyst portfolio  
+- Machine learning projects  
+- SQL & Python analytics  
+- Dashboard design best practices  
 
-1) Create a file at: `.github/workflows/blog-post-workflow.yml`  
-2) Paste this:
-
-```yaml
-name: Latest blog posts workflow
-on:
-  schedule:
-    - cron: '0 */12 * * *'
-  workflow_dispatch:
-
-jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "<<YOUR_RSS_FEED_URL>>"
+<p align="center">
+  <sub>Built like Google. Powered by data. Driven by curiosity.</sub>
+</p>

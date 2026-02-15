@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="headerr.png" width="100%" />
+  <img src="tanushree poojary banner.png" width="100%" />
 </p>
 
 

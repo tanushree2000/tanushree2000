@@ -153,7 +153,7 @@ class TanushreePoojary:
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<p >
   <img 
     src="https://github-readme-streak-stats.herokuapp.com?user=tanushree2000&theme=github-dark&hide_border=true"
   />

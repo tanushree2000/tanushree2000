@@ -28,6 +28,40 @@ Want to know more about me?
 👉 **[Check out my portfolio.](https://yourportfolio.com)**
 
 ---
+## Who am I?
+
+```python
+class TanushreePoojary:
+
+    def __init__(self):
+        self.role = "Aspiring AI & Product Data Analyst"
+        self.mission = "Transform complex data into strategic product decisions"
+        self.superpower = "Finding patterns where others see noise 📊"
+
+        self.tech_stack = {
+            "Languages": ["Python", "SQL"],
+            "BI Tools": ["Power BI", "Tableau", "Excel"],
+            "ML": ["scikit-learn", "Regression", "Clustering"],
+            "Analytics": ["A/B Testing", "Cohort Analysis", "Funnel Metrics"]
+        }
+
+    def current_focus(self):
+        return [
+            "Product Metrics & KPI Design",
+            "User Behavior Analysis",
+            "Predictive Modeling",
+            "Experimentation & Growth Analytics"
+        ]
+
+    def ambitions(self):
+        BuildDataDrivenProducts()
+        DriveBusinessImpact()
+        OptimizeUserExperience()
+        KeepLearningRelentlessly()
+
+    def mindset(self):
+        return "Curious. Analytical. Impact-focused."
+```
 
 ## 📝 Latest Blog Posts
 

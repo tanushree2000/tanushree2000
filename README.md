@@ -147,23 +147,10 @@ class TanushreePoojary:
   <img src="https://img.shields.io/badge/Spotify-444444?style=for-the-badge&logo=spotify&logoColor=white" />
 </p>
 
-<h2>🖥️ My DevSetup</h2>
-
-<p>
-  <img src="https://img.shields.io/badge/Aspire-444444?style=for-the-badge&logo=acer&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-444444?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chrome-444444?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-444444?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terminal-444444?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-444444?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spotify-444444?style=for-the-badge&logo=spotify&logoColor=white" />
-</p>
-
----
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<p >
   <img 
     src="https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=github_dark&hide_border=true"
     height="170"

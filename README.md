@@ -134,17 +134,4 @@ class TanushreePoojary:
   <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge"/>
 </p>
 
-## 🚀 Product & Data Skills
-
-<p>
-  <img src="https://img.shields.io/badge/KPI%20Design-000000?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Funnel%20Analysis-0052CC?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Cohort%20Analysis-4CAF50?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/A%2FB%20Testing-FF6F00?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Product%20Metrics-8E44AD?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-</p>
 

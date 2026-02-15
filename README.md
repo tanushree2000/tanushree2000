@@ -4,8 +4,22 @@
 
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&height=160&text=Hi,%20I’m%20Tanushree%20Poojary&fontSize=40&desc=AI%20Data%20Analyst%20%7C%20Turning%20Data%20Into%20Decisions&descSize=18" />
+
+  <a href="mailto:tanushreepoojary2000@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-yourmail@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/poojarytanushree">
+    <img src="https://img.shields.io/badge/LinkedIn-Tanushree%20Poojary-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://https://leetcode.com/u/tanushreepoojary2000/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+  </a>
+
+
 </p>
+
 
 <h2 align="center">Google • Profile</h2>
 

@@ -134,26 +134,10 @@ class TanushreePoojary:
   <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge"/>
 </p>
 
-<p align="center"> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanushree2000&theme=github_dark" /> </p> <p align="center"> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushree2000&theme=github_dark" height="180" /> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushree2000&theme=github_dark" height="180" /> </p> <p align="center"> <img referrerpolicy="no-referrer" src="https://metrics.lecoq.io/tanushree2000?template=classic&isocalendar=1&languages=1&followup=1&achievements=1&config.timezone=America%2FNew_York" /> </p> ```
+<p > <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanushree2000&theme=github_dark" /> </p>
+<p > <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushree2000&theme=github_dark" height="180" /> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushree2000&theme=github_dark" height="180" /> </p> <p align="center"> <img referrerpolicy="no-referrer" src="https://metrics.lecoq.io/tanushree2000?template=classic&isocalendar=1&languages=1&followup=1&achievements=1&config.timezone=America%2FNew_York" /> </p> ```
 
-<p align="center">
-  <img referrerpolicy="no-referrer"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanushree2000&theme=github_dark" />
-</p>
 
-<p align="center">
-  <img referrerpolicy="no-referrer"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushree2000&theme=github_dark"
-       height="180" />
-  <img referrerpolicy="no-referrer"
-       src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushree2000&theme=github_dark"
-       height="180" />
-</p>
-
-<p align="center">
-  <img referrerpolicy="no-referrer"
-       src="https://metrics.lecoq.io/tanushree2000?template=classic&isocalendar=1&languages=1&followup=1&achievements=1&config.timezone=America%2FNew_York" />
-</p>
 
 
 

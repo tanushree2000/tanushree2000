@@ -183,6 +183,13 @@ class TanushreePoojary:
   </p>
 </details>
 
+<details>
+  <summary><b>▼ Some of my GitHub Public Stats 💻</b></summary>
+  <br/>
+
+  ![Live Metrics](github-metrics.svg)
+
+</details>
 
 
 

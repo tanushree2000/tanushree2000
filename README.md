@@ -10,7 +10,7 @@
   </a>
 
   <a href="https://www.linkedin.com/in/poojarytanushree">
-    <img src="https://img.shields.io/badge/LinkedIn-Tanushree%20Poojary-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
   <a href="https://https://leetcode.com/u/tanushreepoojary2000/">

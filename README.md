@@ -157,8 +157,10 @@ class TanushreePoojary:
   <img 
     src="https://github-readme-streak-stats.herokuapp.com?user=tanushree2000&theme=github-dark&hide_border=true"
   />
+
+ ![GitHub Stats](assets/github-stats-card.svg)
+ 
 </p>
 
-## 📊 GitHub Stats
-![GitHub Stats](assets/github-stats-card.svg)
+
 

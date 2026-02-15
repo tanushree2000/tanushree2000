@@ -134,8 +134,9 @@ class TanushreePoojary:
   <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge"/>
 </p>
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=radical&hide_border=true&title_color=F2C811&icon_color=F2C811" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=radical&hide_border=true" height="180"/>
+<p align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=tanushree2000&show_icons=true&theme=tokyonight" height="180"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=tokyonight" height="180"/>
 </p>
+
 

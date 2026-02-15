@@ -134,23 +134,7 @@ class TanushreePoojary:
   <img src="https://img.shields.io/badge/Agile-0052CC?style=for-the-badge"/>
 </p>
 
-<p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanushree2000&theme=github_dark" />
-</p>
-
-<p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushree2000&theme=github_dark" height="180"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushree2000&theme=github_dark" height="180"/>
-</p>
-
-<p>
-  <img src="https://metrics.lecoq.io/tanushree2000?template=classic&isocalendar=1&languages=1&followup=1&achievements=1&config.timezone=America%2FNew_York" />
-</p>
-
-<p>
-  <img src="https://YOUR-VERCEL-APP.vercel.app/api?username=tanushree2000&show_icons=true&theme=radical" height="180"/>
-  <img src="https://YOUR-VERCEL-APP.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=radical" height="180"/>
-</p>
+<p align="center"> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanushree2000&theme=github_dark" /> </p> <p align="center"> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanushree2000&theme=github_dark" height="180" /> <img referrerpolicy="no-referrer" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanushree2000&theme=github_dark" height="180" /> </p> <p align="center"> <img referrerpolicy="no-referrer" src="https://metrics.lecoq.io/tanushree2000?template=classic&isocalendar=1&languages=1&followup=1&achievements=1&config.timezone=America%2FNew_York" /> </p> ```
 
 
 

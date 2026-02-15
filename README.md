@@ -135,9 +135,10 @@ class TanushreePoojary:
 </p>
 
 <p align="center">
-  <img src="https://githubreadmestatsfast.vercel.app/api?username=tanushree2000&show_icons=true&theme=radical" height="180"/>
-  <img src="https://githubreadmestatsfast.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=radical" height="180"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=tanushree2000&show_icons=true&theme=radical" height="180"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=radical" height="180"/>
 </p>
+
 
 
 

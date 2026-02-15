@@ -150,9 +150,7 @@ class TanushreePoojary:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Metrics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=github_dark&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=github_dark&hide_border=true" height="170"/>
-</p>
+![Live Metrics](github-metrics.svg)
+

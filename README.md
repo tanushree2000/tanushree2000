@@ -6,7 +6,7 @@
 <p align="center">
 
   <a href="mailto:tanushreepoojary2000@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-yourmail@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 
   <a href="https://www.linkedin.com/in/poojarytanushree">

@@ -148,6 +148,8 @@ class TanushreePoojary:
 </p>
 
 
+---
+
 ## 📊 GitHub Stats
 
 <p >

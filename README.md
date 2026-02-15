@@ -63,7 +63,7 @@ class TanushreePoojary:
         return "Curious. Analytical. Impact-focused."
 ```
 
-## 📝 Latest Blog Posts
+## 📝 Latest Blog Posts : 👉 **[Check out :](https://thegirlwholovesdata.hashnode.dev/)**
 
 
 

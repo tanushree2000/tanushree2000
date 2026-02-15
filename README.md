@@ -1,7 +1,7 @@
-<!-- LinkedIn Banner -->
 <p align="center">
-  <img src="ChatGPT Image Feb 14, 2026, 05_55.png" alt="LinkedIn Banner" width="100%" />
+  <img src=".png" alt="Tanushree Poojary Banner" width="100%" />
 </p>
+
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rounded&height=160&text=Hi,%20I’m%20Tanushree%20Poojary&fontSize=40&desc=AI%20Data%20Analyst%20%7C%20Turning%20Data%20Into%20Decisions&descSize=18" />

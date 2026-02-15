@@ -14,7 +14,7 @@
   </a>
 
   <a href="https://https://leetcode.com/u/tanushreepoojary2000/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
   </a>
 
 

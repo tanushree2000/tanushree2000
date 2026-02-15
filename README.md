@@ -6,19 +6,19 @@
 <p align="center">
 
   <a href="mailto:tanushreepoojary2000@gmail.com">
-    <img src="https://img.shields.io/badge/gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Gmail-Tanushree%20Poojary-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 
-  <a href="https://www.linkedin.com/in/poojarytanushree">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/poojarytanushree/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Tanushree%20Poojary-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
-  <a href="https://https://leetcode.com/u/tanushreepoojary2000/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+  <a href="https://leetcode.com/u/tanushreepoojary2000/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Tanushree-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
   </a>
-
 
 </p>
+
 
 
 <h2 align="center">Google • Profile</h2>

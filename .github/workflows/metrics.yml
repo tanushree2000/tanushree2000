@@ -1,8 +1,12 @@
 name: Metrics
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   metrics:
@@ -17,4 +21,3 @@ jobs:
           plugin_isocalendar: yes
           config_timezone: America/New_York
           token: ${{ secrets.GITHUB_TOKEN }}
-

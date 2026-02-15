@@ -135,7 +135,7 @@ class TanushreePoojary:
 </p>
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=tanushree2000&show_icons=true&theme=radical&hide_border=true&title_color=F2C811&icon_color=F2C811" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanushree2000&layout=compact&theme=radical&hide_border=true" height="180"/>
 </p>
 

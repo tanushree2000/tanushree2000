@@ -24,7 +24,7 @@
   <!-- Values -->
   <g font-family="Inter,Segoe UI,Arial" font-size="28" fill="#ffffff" font-weight="700">
     <text x="540" y="155" text-anchor="end">0</text>
-    <text x="540" y="200" text-anchor="end">178</text>
+    <text x="540" y="200" text-anchor="end">184</text>
     <text x="540" y="245" text-anchor="end">4</text>
     <text x="540" y="290" text-anchor="end">0</text>
   </g>
@@ -59,6 +59,6 @@
   </g>
 
   <text x="70" y="330" fill="#7c7c7c" font-size="14" font-family="Inter,Segoe UI,Arial">
-    Last updated Feb 15, 2026 (auto-generated)
+    Last updated Feb 16, 2026 (auto-generated)
   </text>
 </svg>

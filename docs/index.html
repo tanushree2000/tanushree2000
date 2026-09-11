@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tanu@aipm ~ interactive terminal</title>
+<meta name="description" content="Tanushree Poojary · AI-Powered PM. An interactive terminal.">
+<style>
+  :root{
+    /* Brand palette: deep navy #021449 + mint #21EA9D */
+    --bg:#010c2e; --win:#021449; --bar:#0a1f5e; --border:#1b3a7a;
+    --green:#21EA9D; --cyan:#4fd6e0; --blue:#5a9dff; --gray:#8f9cc4;
+    --white:#eaf1ff; --purple:#c9a9ff; --yellow:#ffd166; --red:#ff8a80;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background:
+      radial-gradient(1200px 600px at 50% -10%, #0e2f7a 0%, transparent 60%),
+      var(--bg);
+    color:var(--white);
+    font:15px/1.6 ui-monospace,SFMono-Regular,Consolas,"DejaVu Sans Mono",Menlo,monospace;
+    display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .win{
+    width:min(920px,96vw); height:min(680px,88vh); background:var(--win);
+    border:1px solid var(--border); border-radius:12px; overflow:hidden;
+    display:flex; flex-direction:column; box-shadow:0 30px 80px rgba(0,0,0,.6);
+  }
+  .bar{
+    height:42px; background:var(--bar); border-bottom:1px solid var(--border);
+    display:flex; align-items:center; padding:0 14px; gap:8px; flex:0 0 auto;
+  }
+  .dot{width:12px;height:12px;border-radius:50%}
+  .r{background:#ff5f56}.y{background:#ffbd2e}.g{background:#21EA9D}
+  .title{flex:1;text-align:center;color:var(--gray);font-size:13px;margin-right:44px}
+  .body{padding:18px 20px;overflow-y:auto;flex:1 1 auto}
+  .body::-webkit-scrollbar{width:10px}
+  .body::-webkit-scrollbar-thumb{background:#0a1f5e;border-radius:8px}
+  a{color:var(--blue);text-decoration:none;border-bottom:1px dotted #2a4a8f}
+  a:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
+  .line{white-space:pre-wrap;word-break:break-word}
+  .muted{color:var(--gray)} .grn{color:var(--green)} .cyn{color:var(--cyan)}
+  .blu{color:var(--blue)} .pur{color:var(--purple)} .yel{color:var(--yellow)}
+  .red{color:var(--red)} .wht{color:var(--white)}
+  .prompt .u{color:var(--green)}.prompt .at{color:var(--gray)}.prompt .h{color:var(--cyan)}
+  .prompt .p{color:var(--blue)}.prompt .s{color:var(--gray)}
+  .inrow{display:flex;align-items:baseline}
+  #cmd{
+    background:transparent;border:0;outline:0;color:var(--white);
+    font:inherit;flex:1;caret-color:var(--green);margin-left:6px
+  }
+  .cursor{display:inline-block;width:9px;height:17px;background:var(--white);
+    transform:translateY(3px);animation:bl 1.05s steps(1) infinite}
+  @keyframes bl{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}
+  .banner{color:var(--blue);line-height:1.15;font-size:clamp(7px,1.6vw,12px)}
+</style>
+</head>
+<body>
+  <div class="win" id="win">
+    <div class="bar">
+      <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+      <span class="title">tanu@aipm: ~ · zsh</span>
+    </div>
+    <div class="body" id="body"></div>
+  </div>
+
+<script>
+const WEBSITE="https://www.TODO-your-website.com/";
+const LINKEDIN="https://www.linkedin.com/in/TODO-your-linkedin/";
+const GITHUB="https://github.com/tanushree2000";
+const EMAIL="tanushreepoojary2000@gmail.com";
+const BOOK="https://app.onecal.io/b/TODO-your-linkedin/30-minutes-of-product-with-tanu";
+const SITE={
+  interim:"https://www.TODO-your-website.com/interim-head-of-product-manager",
+  consulting:"https://www.TODO-your-website.com/product-and-growth-consulting",
+  coaching:"https://www.TODO-your-website.com/1-on-1-coaching-and-mentoring",
+  training:"https://www.TODO-your-website.com/private-training-and-group-coaching",
+  speaking:"https://www.TODO-your-website.com/speaking",
+  teardown:"https://www.TODO-your-website.com/product-teardown-and-audit",
+};
+// project registry for the `info <name>` query command
+// TODO: replace these placeholder entries with your real projects.
+// key: [display name, one-line description, era/tag, repo url]
+const PROJECTS={
+  "project-1":["TODO_PROJECT_NAME","TODO one-line description","TODO_YEARS","https://github.com/tanushree2000/TODO_REPO"],
+  "project-2":["TODO_PROJECT_NAME","TODO one-line description","TODO_YEARS","https://github.com/tanushree2000/TODO_REPO"],
+};
+
+const body=document.getElementById('body');
+const A=(url,label)=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label||url}</a>`;
+
+function el(html,cls){const d=document.createElement('div');d.className='line '+(cls||'');d.innerHTML=html;body.appendChild(d);scroll();return d;}
+function scroll(){body.scrollTop=body.scrollHeight;}
+
+// ---- portrait: convert my photo into braille dots, client-side -------------
+const PORTRAIT_SRC = "assets/me.png";
+// me.png is already cropped + vignetted to a clean, mostly-plain background,
+// so no further cropping is needed here — this is intentionally the full image.
+const PORTRAIT_CROP = { sx: 0, sy: 0, sw: 1040, sh: 1640 };
+let _pLines = null, _pTried = false;
+function buildPortrait(cb){
+  if(_pTried){ cb(_pLines); return; }
+  const img = new Image();
+  img.onload = () => {
+    try{
+      const cr = PORTRAIT_CROP, arW = cr?cr.sw:img.width, arH = cr?cr.sh:img.height;
+      const cols = 44, rows = Math.max(8, Math.round(cols * (arH/arW) * 0.52));
+      const pw = cols*2, ph = rows*4;
+      const cv = document.createElement('canvas'); cv.width=pw; cv.height=ph;
+      const ctx = cv.getContext('2d');
+      if(cr) ctx.drawImage(img, cr.sx, cr.sy, cr.sw, cr.sh, 0, 0, pw, ph);
+      else ctx.drawImage(img, 0, 0, pw, ph);
+      const d = ctx.getImageData(0,0,pw,ph).data;
+      const L = i => 0.299*d[i]+0.587*d[i+1]+0.114*d[i+2];
+      let mn=255,mx=0; for(let i=0;i<d.length;i+=4){const l=L(i); if(l<mn)mn=l; if(l>mx)mx=l;}
+      const GAMMA=0.9, THR=0.45;
+      const norm = v => { const n=(mx>mn)?(v-mn)/(mx-mn):0; return Math.pow(n, GAMMA); };
+      const bit=[[0x01,0x08],[0x02,0x10],[0x04,0x20],[0x40,0x80]];
+      const lines=[];
+      for(let cy=0; cy<rows; cy++){
+        let line='';
+        for(let cx=0; cx<cols; cx++){
+          let b=0;
+          for(let ry=0; ry<4; ry++) for(let rx=0; rx<2; rx++){
+            const v = norm(L(((cy*4+ry)*pw+(cx*2+rx))*4));
+            if((1-v) > THR) b |= bit[ry][rx];   // dark pixel => dot (dark subject on white bg)
+          }
+          line += String.fromCharCode(0x2800 + b);
+        }
+        lines.push(line.replace(/⠀+$/,''));
+      }
+      _pLines = lines;
+    }catch(e){ _pLines = null; }
+    _pTried = true; cb(_pLines);
+  };
+  img.onerror = () => { _pTried = true; _pLines = null; cb(null); };
+  img.src = PORTRAIT_SRC;
+}
+const FALLBACK_AVATAR = [
+  "       ▄▄▓▓▓▓▓▓▓▓▄▄       ",
+  "     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓     ",
+  "    ▓▓▓ ⌐▨▨▨▨▨▨▨▨⌐ ▓▓▓    ",
+  "   ▟▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▙   ",
+  "   ▓▓▓  ◕        ◕  ▓▓▓   ",
+  "   ▓▓▓▖      ▿      ▗▓▓▓   ",
+  "   ▝▓▓▓▖   ╲____╱   ▗▓▓▘   ",
+  "     ▓▓▓▒▒▒▒▒▒▒▒▒▒▒▓▓▓     ",
+  "      ▀▜▓▓▓▓▓▓▓▓▓▓▜▀      ",
+];
+function showPortrait(withNote){
+  buildPortrait(lines=>{
+    const art = (lines && lines.length) ? lines : FALLBACK_AVATAR;
+    art.forEach(l=>el('<span class="cyn">'+l.replace(/</g,'&lt;')+'</span>'));
+    el('<span class="pur">Tanushree Poojary</span> <span class="muted">· AI-Powered PM</span>');
+    if(withNote && !(lines && lines.length))
+      el('<span class="muted">(add docs/assets/me.png to render the real me in dots)</span>');
+  });
+}
+
+const BANNER=
+`  ___ _  _ ___ _  _ ___ ___   ___ ___ ___ ___ __  __
+ / __| || | __| || | _ ) . \\ | _ ) __| _ \\ _ )  \\/  |
+ \\__ \\ __ | _|| __ | _ \\ _ | | _ \\ _||   / _ \\ |\\/| |
+ |___/_||_|___|_||_|___/___/ |___/___|_|_\\___/_|  |_|`;
+
+const banner=()=>{
+  el(BANNER.replace(/</g,'&lt;'),'banner');
+  el(`<span class="muted">AI-Powered PM · shipping since TODO_YEAR</span>`);
+  el(`<span class="muted">Type </span><span class="pur">help</span><span class="muted"> to list commands.</span>`);
+  el('&nbsp;');
+};
+
+const COMMANDS={
+  help(){
+    const rows=[
+      ['help','show this list'],['about','who is Tanushree'],['me','my face, in dots'],['impact','the numbers from the field'],
+      ['neofetch','system-style summary'],['skills','the toolbox'],['projects','browse my projects'],['info','dig into one project'],
+      ['products','AI-era live products'],['services','how I can help you'],['book','grab a 1:1 product call'],
+      ['social','all my links'],['website','open TODO-your-website.com'],['linkedin','open LinkedIn'],
+      ['github','open GitHub'],['contact','get in touch'],['resume','one-line pitch'],
+      ['clear','wipe the screen'],['banner','reprint the banner'],
+    ];
+    el('<span class="grn">available commands</span>');
+    rows.forEach(([c,d])=>el(`  <span class="cyn">${c.padEnd(10)}</span><span class="muted">${d}</span>`));
+  },
+  impact(){
+    el('<span class="grn">impact in the field</span>');
+    // TODO: replace with your own real, self-reported numbers
+    const rows=[
+      ['TODO','product launches'],['TODO','revenue / impact metric'],['TODO','users impacted'],
+      ['TODO','stakeholders / teams led'],['TODO','teams built & scaled'],['TODO','efficiencies unlocked'],
+    ];
+    rows.forEach(([n,d])=>el(`  <span class="pur">${n.padEnd(7)}</span><span class="muted">${d}</span>`));
+    el('  '+A(WEBSITE,'→ the full story on TODO-your-website.com'));
+  },
+  services(){
+    el('<span class="grn">how I can help</span>');
+    el('  '+A(SITE.interim,'Interim Head of Product')+' <span class="muted">stand up product ops, process, strategy</span>');
+    el('  '+A(SITE.consulting,'Product & Growth Consulting')+' <span class="muted">unblock discovery, delivery, growth</span>');
+    el('  '+A(SITE.coaching,'1:1 Coaching & Mentoring')+' <span class="muted">level up as a PM or founder</span>');
+    el('  '+A(SITE.training,'Team Training')+' <span class="muted">·</span> '+A(SITE.speaking,'Speaking')+' <span class="muted">·</span> '+A(SITE.teardown,'Teardown & Audit'));
+    el('  '+A(BOOK,'→ book a 1:1 product call'));
+  },
+  book(){el('<span class="muted">opening my calendar </span>'+A(BOOK,BOOK)+' <span class="muted">…</span>');open(BOOK);},
+  // TODO: the about/resume copy below is sample voice from the template — rewrite in your own words
+  about(){
+    el('<span class="grn">$ whoami</span>');
+    el('<span class="pur">Tanushree Poojary</span> <span class="muted">·</span> AI-Powered PM');
+    el('<span class="muted">I sit on-site with customers, feel the pain first-hand, and turn</span>');
+    el('<span class="muted">messy field reality into shipped product. I live in the seam</span>');
+    el('<span class="muted">between engineering, the business, and the human using the thing.</span>');
+    el('&nbsp;');
+    el('<span class="yel">▸</span> 0→1 products, enterprise deployments, AI-native workflows');
+    el('<span class="yel">▸</span> discovery → strategy → specs → delivery → the ugly trade-offs');
+  },
+  neofetch(){
+    // TODO: replace the placeholder values below with your own
+    const rows=[
+      ['role','AI-Powered PM'],['uptime','shipping since TODO_YEAR'],
+      ['impact','TODO launches · TODO · TODO users'],['focus','0→1 · enterprise · AI-native'],
+      ['stack','Jira · Figma · SQL · Python · LLMs'],['motto','TODO your motto'],
+    ];
+    el('<span class="grn">tanu</span><span class="muted">@</span><span class="cyn">aipm</span>');
+    el('<span class="muted">'+'-'.repeat(11)+'</span>');
+    rows.forEach(([k,v])=>el(`<span class="yel">${k.padEnd(8)}</span><span class="muted">: </span>${v}`));
+  },
+  skills(){
+    const g=(t,items)=>{el(`<span class="grn">${t}</span>`);el('  '+items.map(i=>`<span class="blu">${i}</span>`).join('<span class="muted">  ·  </span>'));};
+    g('product & delivery',['Jira','Linear','Notion','Confluence','Figma','Miro','Productboard']);
+    g('analytics & insight',['Amplitude','Mixpanel','GA4','Metabase','SQL','Excel']);
+    g('technical & AI',['Python','Git','REST APIs','Markdown','OpenAI','Claude','Prompt design']);
+    g('ways of working',['Discovery','Roadmapping','A/B testing','Agile','Stakeholder mgmt']);
+  },
+  projects(){
+    el('<span class="grn">projects</span>');
+    // TODO: replace with your real projects (keep in sync with the PROJECTS object above)
+    Object.keys(PROJECTS).forEach(k=>{
+      const [name,desc,,url]=PROJECTS[k];
+      el('  '+A(url,name)+' <span class="muted">'+desc+'</span>');
+    });
+    el('<span class="muted">  type </span><span class="pur">info &lt;name&gt;</span><span class="muted"> to dig into any project, e.g. </span><span class="pur">info project-1</span>');
+  },
+  info(a){
+    const raw=(a||[]).join(' ').toLowerCase().trim();
+    if(!raw){ el('<span class="muted">usage: </span><span class="cyn">info &lt;project&gt;</span><span class="muted"> · try </span><span class="pur">info project-1</span><span class="muted"> or </span><span class="pur">info project-2</span>'); return; }
+    const q=raw.replace(/\s+/g,'-');
+    const key=Object.keys(PROJECTS).find(k=>k===q||k.includes(q)||PROJECTS[k][0].toLowerCase().includes(raw));
+    if(!key){ el('<span class="red">no project "'+raw+'"</span> <span class="muted">· run </span><span class="pur">projects</span><span class="muted"> to list them</span>'); return; }
+    const [name,desc,era,url]=PROJECTS[key];
+    el('<span class="grn">▸ </span><span class="pur">'+name+'</span> <span class="muted">· '+era+'</span>');
+    el('  '+desc);
+    el('  '+A(url,url.replace('https://','')));
+  },
+  products(){
+    el('<span class="grn">AI-era live products</span>');
+    el('  <span class="yel">◔ coming soon</span> <span class="muted">· currently building in the field.</span>');
+    el('  <span class="muted">AI-native products that put the model in the workflow,</span>');
+    el('  <span class="muted">not bolted on as an afterthought. Watch this space.</span>');
+    el('  '+A(WEBSITE,'→ get the drop on TODO-your-website.com'));
+  },
+  social(){
+    el('<span class="grn">links</span>');
+    el('  <span class="muted">website  </span>'+A(WEBSITE,'TODO-your-website.com'));
+    el('  <span class="muted">linkedin </span>'+A(LINKEDIN,'in/TODO-your-linkedin'));
+    el('  <span class="muted">github   </span>'+A(GITHUB,'@tanushree2000'));
+  },
+  website(){el('<span class="muted">opening </span>'+A(WEBSITE,WEBSITE)+' <span class="muted">…</span>');open(WEBSITE);},
+  linkedin(){el('<span class="muted">opening </span>'+A(LINKEDIN,LINKEDIN)+' <span class="muted">…</span>');open(LINKEDIN);},
+  github(){el('<span class="muted">opening </span>'+A(GITHUB,GITHUB)+' <span class="muted">…</span>');open(GITHUB);},
+  contact(){el('<span class="grn">get in touch</span>');el('  '+A(LINKEDIN,'LinkedIn DM')+' <span class="muted">(fastest)</span>');el('  <span class="muted">email </span>'+A('mailto:'+EMAIL,EMAIL));},
+  resume(){el('<span class="cyn">"I embed where the customer is, and ship the thing that actually moves the needle."</span>');},
+  me(){ el('<span class="grn">rendering me in dots...</span>'); showPortrait(true); },
+  banner(){banner();},
+  clear(){body.innerHTML='';},
+  echo(a){el(a.join(' ')||'&nbsp;');},
+  pwd(){el('/home/tanu');},
+  ls(){el('<span class="blu">me  about  impact  projects  products  skills  services  social  contact</span>');},
+  date(){el(new Date().toString());},
+  sudo(){el('<span class="red">nope. i\'m already root of my own roadmap.</span> 🙂');},
+  whoami(){this.about();},
+};
+const ALIASES={'?':'help','h':'help','ls -la':'ls','open':'website','links':'social','cv':'resume',
+  'fetch':'neofetch','consulting':'services','coaching':'services','hire':'services','work':'services',
+  'call':'book','stats':'impact','numbers':'impact','portrait':'me','avatar':'me','whoami':'about'};
+
+function run(raw){
+  const input=raw.trim();
+  el(`<span class="prompt"><span class="u">tanu</span><span class="at">@</span><span class="h">aipm</span><span class="s">:</span><span class="p">~</span><span class="s">$</span></span> ${input.replace(/</g,'&lt;')}`);
+  if(!input) return;
+  hist.push(input); hp=hist.length;
+  const parts=input.split(/\s+/); let cmd=parts[0].toLowerCase(); const args=parts.slice(1);
+  if(ALIASES[input.toLowerCase()]) cmd=ALIASES[input.toLowerCase()];
+  else if(ALIASES[cmd]) cmd=ALIASES[cmd];
+  if(COMMANDS[cmd]) { try{ COMMANDS[cmd](args); }catch(e){ el('<span class="red">error running '+cmd+'</span>'); } }
+  else el(`<span class="red">command not found: ${cmd}</span> <span class="muted">· try </span><span class="pur">help</span>`);
+  el('&nbsp;');
+}
+
+// ---- input row -------------------------------------------------------------
+let hist=[], hp=0;
+function newPrompt(){
+  const row=document.createElement('div'); row.className='line inrow';
+  row.innerHTML=`<span class="prompt"><span class="u">tanu</span><span class="at">@</span><span class="h">aipm</span><span class="s">:</span><span class="p">~</span><span class="s">$</span></span>`;
+  const inp=document.createElement('input'); inp.id='cmd'; inp.autocomplete='off'; inp.spellcheck=false; inp.setAttribute('aria-label','terminal input');
+  row.appendChild(inp); body.appendChild(row); inp.focus(); scroll();
+  inp.addEventListener('keydown',e=>{
+    if(e.key==='Enter'){const v=inp.value; inp.remove(); row.remove(); run(v); newPrompt();}
+    else if(e.key==='ArrowUp'){if(hp>0){hp--;inp.value=hist[hp]||'';}e.preventDefault();}
+    else if(e.key==='ArrowDown'){if(hp<hist.length){hp++;inp.value=hist[hp]||'';}e.preventDefault();}
+    else if(e.key==='l'&&e.ctrlKey){e.preventDefault();body.innerHTML='';newPrompt();}
+  });
+}
+document.getElementById('win').addEventListener('click',()=>{const c=document.getElementById('cmd');if(c)c.focus();});
+
+// ---- boot animation --------------------------------------------------------
+const boot=[
+  ['[  OK  ] ','grn','reached target tanu-os v3.0 (ai-powered)'],
+  ['[  OK  ] ','grn','started customer-proximity.service'],
+  ['[  OK  ] ','grn','mounted /product and /business'],
+  ['','','&nbsp;'],
+  ['login: ','muted','tanu'],
+  ['','','welcome to <span class="grn">tanu-os</span> 🚀'],
+  ['','','&nbsp;'],
+];
+function runBoot(){
+  let bi=0;
+  (function bootStep(){
+    if(bi<boot.length){
+      const [pfx,cls,txt]=boot[bi++];
+      el(`<span class="${cls}">${pfx}</span><span class="muted">${txt}</span>`);
+      setTimeout(bootStep, 220);
+    } else { banner(); newPrompt(); }
+  })();
+}
+// Show the dot-portrait first if the photo is present, then boot. Never blocks:
+// if there is no photo (or it is slow), boot starts on its own.
+let _booted=false;
+function startOnce(withPortrait){
+  if(_booted) return; _booted=true;
+  if(withPortrait){
+    _pLines.forEach(l=>el('<span class="cyn">'+l.replace(/</g,'&lt;')+'</span>'));
+    el('<span class="pur">Tanushree Poojary</span> <span class="muted">· type </span><span class="pur">me</span><span class="muted"> to see this again</span>');
+    el('&nbsp;');
+  }
+  runBoot();
+}
+buildPortrait(lines=>startOnce(!!(lines && lines.length)));
+setTimeout(()=>startOnce(false), 1400);   // safety net if the image hangs
+</script>
+</body>
+</html>

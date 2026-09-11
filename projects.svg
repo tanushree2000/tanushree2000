@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="448" viewBox="0 0 840 448" role="img" aria-label="Projects terminal: query my projects">
+  <defs>
+    <linearGradient id="glassP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pclip0"><rect x="26" y="55" width="0" height="25"><animate attributeName="width" from="0" to="234.8" begin="0.50s" dur="1.20s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip1"><rect x="26" y="80" width="0" height="25"><animate attributeName="width" from="0" to="464.8" begin="1.82s" dur="0.39s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip3"><rect x="26" y="130" width="0" height="25"><animate attributeName="width" from="0" to="345.2" begin="2.40s" dur="1.80s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip4"><rect x="26" y="155" width="0" height="25"><animate attributeName="width" from="0" to="437.2" begin="4.32s" dur="0.64s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip5"><rect x="26" y="180" width="0" height="25"><animate attributeName="width" from="0" to="345.2" begin="5.02s" dur="0.29s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip7"><rect x="26" y="230" width="0" height="25"><animate attributeName="width" from="0" to="345.2" begin="5.49s" dur="1.80s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip8"><rect x="26" y="255" width="0" height="25"><animate attributeName="width" from="0" to="437.2" begin="7.41s" dur="0.64s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip9"><rect x="26" y="280" width="0" height="25"><animate attributeName="width" from="0" to="354.4" begin="8.11s" dur="0.30s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip11"><rect x="26" y="330" width="0" height="25"><animate attributeName="width" from="0" to="317.6" begin="8.59s" dur="1.65s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip12"><rect x="26" y="355" width="0" height="25"><animate attributeName="width" from="0" to="492.4" begin="10.36s" dur="0.73s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="pclip14"><rect x="26" y="405" width="0" height="25"><animate attributeName="width" from="0" to="216.4" begin="11.30s" dur="1.10s" fill="freeze" calcMode="linear"/></rect></clipPath>
+  </defs>
+  <rect x="1" y="1" width="838" height="446" rx="12" fill="#021449" stroke="#1b3a7a" stroke-width="1.5"/>
+  <rect x="1" y="1" width="838" height="44" rx="12" fill="#0a1f5e"/>
+  <rect x="1" y="32" width="838" height="12" fill="#0a1f5e"/>
+  <rect x="1" y="1" width="838" height="446" rx="12" fill="url(#glassP)"/>
+  <line x1="1" y1="44" x2="839" y2="44" stroke="#1b3a7a" stroke-width="1"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="22" r="6" fill="#21EA9D"/>
+  <text x="420" y="27" text-anchor="middle" fill="#8f9cc4" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">tanu@aipm: ~/projects · query me</text>
+  <text x="26" y="74" clip-path="url(#pclip0)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">tanu</tspan><tspan fill="#8f9cc4">@</tspan><tspan fill="#4fd6e0">aipm</tspan><tspan fill="#8f9cc4">:</tspan><tspan fill="#5a9dff">~/projects</tspan><tspan fill="#8f9cc4">$ </tspan><tspan fill="#eaf1ff">ls</tspan></text>
+  <text x="26" y="99" clip-path="url(#pclip1)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#5a9dff">project-1/</tspan><tspan fill="#8f9cc4">   </tspan><tspan fill="#5a9dff">project-2/</tspan><tspan fill="#8f9cc4">   </tspan><tspan fill="#5a9dff">ai-workflows/</tspan><tspan fill="#8f9cc4">   </tspan><tspan fill="#5a9dff">ai-era/</tspan></text>
+  <text x="26" y="149" clip-path="url(#pclip3)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">tanu</tspan><tspan fill="#8f9cc4">@</tspan><tspan fill="#4fd6e0">aipm</tspan><tspan fill="#8f9cc4">:</tspan><tspan fill="#5a9dff">~/projects</tspan><tspan fill="#8f9cc4">$ </tspan><tspan fill="#eaf1ff">info project-1</tspan></text>
+  <text x="26" y="174" clip-path="url(#pclip4)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">▸ </tspan><tspan fill="#eaf1ff">TODO_PROJECT_NAME</tspan><tspan fill="#8f9cc4">  TODO one-line description</tspan></text>
+  <text x="26" y="199" clip-path="url(#pclip5)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#5a9dff">  github.com/tanushree2000/TODO_REPO</tspan></text>
+  <text x="26" y="249" clip-path="url(#pclip7)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">tanu</tspan><tspan fill="#8f9cc4">@</tspan><tspan fill="#4fd6e0">aipm</tspan><tspan fill="#8f9cc4">:</tspan><tspan fill="#5a9dff">~/projects</tspan><tspan fill="#8f9cc4">$ </tspan><tspan fill="#eaf1ff">info project-2</tspan></text>
+  <text x="26" y="274" clip-path="url(#pclip8)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">▸ </tspan><tspan fill="#eaf1ff">TODO_PROJECT_NAME</tspan><tspan fill="#8f9cc4">  TODO one-line description</tspan></text>
+  <text x="26" y="299" clip-path="url(#pclip9)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#8f9cc4">  TODO more detail about what it does</tspan></text>
+  <text x="26" y="349" clip-path="url(#pclip11)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">tanu</tspan><tspan fill="#8f9cc4">@</tspan><tspan fill="#4fd6e0">aipm</tspan><tspan fill="#8f9cc4">:</tspan><tspan fill="#5a9dff">~/projects</tspan><tspan fill="#8f9cc4">$ </tspan><tspan fill="#eaf1ff">open --live</tspan></text>
+  <text x="26" y="374" clip-path="url(#pclip12)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">→ </tspan><tspan fill="#8f9cc4">launching explorer... </tspan><tspan fill="#ffd166">click to query any project ↓</tspan></text>
+  <text x="26" y="424" clip-path="url(#pclip14)" font-family="ui-monospace,SFMono-Regular,Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="15" xml:space="preserve"><tspan fill="#21EA9D">tanu</tspan><tspan fill="#8f9cc4">@</tspan><tspan fill="#4fd6e0">aipm</tspan><tspan fill="#8f9cc4">:</tspan><tspan fill="#5a9dff">~/projects</tspan><tspan fill="#8f9cc4">$ </tspan></text>
+  <rect x="230.4" y="410" width="9" height="17" fill="#eaf1ff" opacity="0"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.05s" begin="12.52s" repeatCount="indefinite"/></rect>
+</svg>
